@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-_w^)#uxn0cyesu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['your-vercel-domain.vercel.app', 'localhost']
+ALLOWED_HOSTS = ['https://vercel.com/tushar-chourses-projects/cycleshop/DPEszo7jcMQ3oMpquwV72LQN4o7r', 'localhost']
 
 # Application definition
 INSTALLED_APPS = [
